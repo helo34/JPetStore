@@ -27,6 +27,7 @@ public class TestStore {
 		driver.manage().window().maximize();
 		driver.get("http://localhost:8090/jpetstore/");
 		}
+		// TEST
 		else if(System.getProperty("navigateur").equalsIgnoreCase("chrome")){
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Formation\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -34,6 +35,7 @@ public class TestStore {
 		driver.get("http://localhost:8090/jpetstore/");
 		}
 		// MODIF CONFLIT 3
+		
 	}
 	
 	@Test
