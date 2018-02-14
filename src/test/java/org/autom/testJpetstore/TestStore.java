@@ -21,6 +21,7 @@ public class TestStore {
 		driver.manage().window().maximize();
 		driver.get("http://localhost:8090/jpetstore/");
 		}
+		//AJOUT MODIF BRANCHE MASTER
 		else if(System.getProperty("navigateur").equalsIgnoreCase("chrome")){
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Formation\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
