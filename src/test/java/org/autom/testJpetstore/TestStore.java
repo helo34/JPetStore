@@ -34,6 +34,7 @@ public class TestStore {
 		driver.get("http://localhost:8090/jpetstore/");
 		}
 		// MODIF CONFLIT 3
+		// BLUBLU
 	}
 	
 	@Test
