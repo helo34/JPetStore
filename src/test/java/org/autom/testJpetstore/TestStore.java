@@ -33,7 +33,7 @@ public class TestStore {
 		driver.manage().window().maximize();
 		driver.get("http://localhost:8090/jpetstore/");
 		}
-		// MODIF PRINCIPALE 3
+		// MODIF CONFLIT 2
 	}
 	
 	@Test
