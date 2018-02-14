@@ -1,9 +1,5 @@
 # ignore build output directory
-libreplan-webapp/target
-libreplan-business/target
-libreplan-gantt-zk/target
-ganttzk-demo-webapp/target
-ganttzk/target
+*/target
 
 # ignore eclipse configuration files
 .classpath
@@ -14,18 +10,12 @@ ganttzk/target
 *.patch
 
 #ignore logs
-libreplan-webapp/*.log
-libreplan-webapp/*.log.????-??-??
+*/*.log
+*/*.log.????-??-??
 
 #ignore backup files
 *~
 \#*\#
 
 # ignore documentation auto-generated files
-doc/src/user/en/html/
-doc/src/user/en/index.rst
-doc/src/user/es/html/
-doc/src/user/es/index.rst
-doc/src/user/gl/html/
-doc/src/user/gl/index.rst
-libreplan-webapp/src/main/webapp/help/
+/target/
